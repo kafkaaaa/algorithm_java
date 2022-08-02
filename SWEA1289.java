@@ -13,6 +13,8 @@ public class SWEA1289 {
         Scanner scan = new Scanner(System.in);
         StringBuilder sb = new StringBuilder();
         int T = scan.nextInt();
+        // nextLine() : \n 개행문자 까지 읽고, 개행문자를 버린 뒤 나머지 문자열을 가져옴.
+        // next() : 공백문자 이전 까지 읽어옴. (앞의 개행문자는 무시)
         for (int tc=1; tc<=T; tc++) {
             char[] input = scan.next().toCharArray();
             char tmp = '0';
